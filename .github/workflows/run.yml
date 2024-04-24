@@ -1,6 +1,8 @@
 name: 🚀 Run
 
 on:
+  pull-request:
+    types: [opened, reopened]
   workflow_dispatch:
 
 jobs:
